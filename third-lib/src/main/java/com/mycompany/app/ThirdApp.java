@@ -7,6 +7,6 @@ package com.mycompany.app;
 public class ThirdApp 
 {
     public String third() {
-        return "third App";
+        return "Third App";
     }
 }
