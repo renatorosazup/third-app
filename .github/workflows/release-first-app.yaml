@@ -22,7 +22,7 @@ jobs:
 
       - name: Publish
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
           VERSION: ${{ github.ref_name }}
         run: mvn deploy
         working-directory: third-lib
